@@ -540,7 +540,7 @@
                             <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="User"
                                 class="author-avatar">
                             <div>
-                                <div class="author-name">James L.</div>
+                                <div class="author-name">James X.</div>
                                 <div class="author-role">Entrepreneur</div>
                             </div>
                         </div>
