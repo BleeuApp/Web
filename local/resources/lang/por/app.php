@@ -112,6 +112,7 @@ return [
     'arabic' => 'Árabe',
     'hindi' => 'Hindi',
     'english' => 'Inglês',
+    'malayalam' => 'malaiala',
     'admin' => 'Admin',
     'account_setting' => 'Configuração da conta',
     'french' => 'Francês',

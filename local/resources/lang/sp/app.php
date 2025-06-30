@@ -112,6 +112,7 @@ return [
     'arabic' => 'Árabe',
     'hindi' => 'Hindi',
     'english' => 'Inglés',
+    'malayalam' => 'idioma malayalam',
     'admin' => 'Admin',
     'account_setting' => 'Configuración de la cuenta',
     'french' => 'Francés',
@@ -236,4 +237,3 @@ return [
     'plan' => 'Plan',
     'welcome_slider' => 'Administrar deslizadores de bienvenida'
 ];
-

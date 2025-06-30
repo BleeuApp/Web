@@ -112,6 +112,7 @@ return [
     'arabic' => 'Arabic',
     'hindi' => 'Hindi',
     'english' => 'English',
+    'malayalam' => "Malayalam",
     'admin' => 'Admin',
     'account_setting' => 'Account Setting',
     'french' => 'French',
@@ -242,5 +243,5 @@ return [
     'Web App URL' => "Web App URL",
     "create_qr" => "Create QR Code",
     "qr_desc" => "You can use this QR code for digital Menu or user can access the store direct with this QR Code",
-    
+
 ];

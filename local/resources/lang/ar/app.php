@@ -12,7 +12,7 @@ return [
     | these language lines according to your application's requirements.
     |
     */
-    
+
     "email_confirm" => "تأكيد عنوان بريدك الإلكتروني",
     "welcome" => "مرحبًا",
     "email_confirm_desc" => "استخدم الرمز أدناه لإكمال عملية التسجيل. إذا لم تقم بإنشاء حساب معنا ، يمكنك حذف هذا البريد الإلكتروني بأمان.",
@@ -112,6 +112,7 @@ return [
     'arabic' => 'العربية',
     'hindi' => 'الهندية',
     'english' => 'الإنجليزية',
+    'malayalam' => 'المالايالامية',
     'admin' => 'المشرف',
     'account_setting' => 'إعدادات الحساب',
     'french' => 'الفرنسية',
@@ -235,5 +236,4 @@ return [
     'plan_title' => 'إدارة خطط الاشتراك',
     'plan' => 'الخطة',
     'welcome_slider' => 'إدارة شريط التمرير الترحيبي'
-    ];
-    
+];

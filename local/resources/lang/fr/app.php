@@ -113,6 +113,7 @@ return [
     'arabic' => "Arabe",
     'hindi' => "Hindi",
     'english' => "Anglais",
+    'malayalam' => 'le malayalam',
     'admin' => "Admin",
     'account_setting' => "Paramètres du compte",
     'french' => "Français",
