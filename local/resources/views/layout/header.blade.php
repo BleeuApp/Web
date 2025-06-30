@@ -34,6 +34,8 @@
                             {{ __('app.spanish') }}
                         @elseif(Session::get('locale') == 'fr')
                             {{ __('app.french') }}
+                        @elseif(Session::get('locale') == 'mala')
+                            {{ __('app.malayalam') }}
                         @elseif(Session::get('locale') == 'por')
                             {{ __('app.por') }}
                         @endif
@@ -56,6 +58,7 @@
                         <hr class="dropdown-divider">
                     </li>
 
+                    {{-- New Update --}}
                     <li>
                         <a class="dropdown-item d-flex align-items-center" href="{{ Asset('setLang?lang=mala') }}">
                             <i class="bi bi-check-circle"></i>
@@ -65,6 +68,7 @@
                     <li>
                         <hr class="dropdown-divider">
                     </li>
+                    {{--  --}}
 
                     <li>
                         <a class="dropdown-item d-flex align-items-center" href="{{ Asset('setLang?lang=ar') }}">
