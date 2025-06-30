@@ -1,7 +1,5 @@
 <?php
-
 return [
-
 "menu_home" => "Home",
 "menu_account" => "My Account",
 "menu_order" => "My Orders",
@@ -60,5 +58,4 @@ return [
 "earning" => "Earning",
 "no_order" => "Opps! No order found."
 ];
-
 ?>

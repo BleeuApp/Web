@@ -1,7 +1,5 @@
 <?php
-
 return [
-
 "menu_home" => "Home",
 "menu_setting" => "Account Setting",
 "menu_staff" => "Delivery Staff",
@@ -116,7 +114,5 @@ return [
 "cur_pass" => "Current Password",
 "new_pass" => "New Password",
 "con_pass" => "Confirm Password"
-
 ];
-
 ?>
