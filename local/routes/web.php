@@ -43,7 +43,7 @@ Route::group(['middleware' => 'auth'], function(){
 Route::get('home', [AdminController::class, 'home']);
 Route::get('setting', [AdminController::class, 'setting']);
 Route::post('setting', [AdminController::class, 'update']);
-Route::get('logout', [AdminController::class, 'logout']);
+Route::get('admin/logout', [AdminController::class, 'logout'])->name('admin_logout');
 Route::get('setLang', [AdminController::class, 'setLang']);
 Route::get('appuser', [AdminController::class, 'appuser']);
 Route::get('appuserStatus', [AdminController::class, 'appuserStatus']);

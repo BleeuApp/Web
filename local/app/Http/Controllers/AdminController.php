@@ -34,7 +34,7 @@ class AdminController extends Controller
 	{
 		$username = $request->input('username');
 		$password = $request->input('password');
-		
+
 		if (Auth::attempt(['username' => $username, 'password' => $password]))
 		{
 			return Redirect::to('home')->with('message', 'Welcome ! Your are logged in now.');
@@ -64,7 +64,7 @@ class AdminController extends Controller
 	}
 
 	public function update(Request $Request)
-	{		
+	{
 		$admin = new User;
 
 		if($admin->matchPassword($Request->get('current_password')))
@@ -82,7 +82,7 @@ class AdminController extends Controller
 	public function setLang()
 	{
 		Session::put('locale', $_GET['lang']);
-    		
+
 		return Redirect::back()->with('message', 'Language Changed Successfully.');
 	}
 
@@ -90,7 +90,7 @@ class AdminController extends Controller
 	{
 		Auth::logout();
 
-		return Redirect('login')->with('error', 'Logout Successfully.');
+		return Redirect('/admin')->with('error', 'Logout Successfully.');
 
 	}
 
@@ -121,7 +121,7 @@ class AdminController extends Controller
         $res->email         = $Request->get('email');
         $res->Save();
 
-      
+
         if($Request->get('type') != "" && $Request->get('amount') != "")
         {
             $trans                  = new Trans;
@@ -135,7 +135,7 @@ class AdminController extends Controller
 
             if($Request->get('type') == 0)
             {
-                $res->wallet        = $res->wallet + $Request->get('amount'); 
+                $res->wallet        = $res->wallet + $Request->get('amount');
             }
             else
             {
