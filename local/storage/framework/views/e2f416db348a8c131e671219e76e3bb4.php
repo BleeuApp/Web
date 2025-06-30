@@ -54,7 +54,7 @@
                     <p class="text-center small"><?php echo app('translator')->get('store.login_desc'); ?></p>
                   </div>
 
-                  <form class="row g-3 needs-validation" novalidate action="<?php echo e(Asset('login')); ?>" method="POST">
+                  <form class="row g-3 needs-validation" novalidate action="<?php echo e(Asset('admin')); ?>" method="POST">
 
                    <?php echo csrf_field(); ?>
 
@@ -87,7 +87,7 @@
                 </div>
               </div>
 
-              
+
 
             </div>
           </div>
@@ -100,4 +100,5 @@
 
   </body>
 
-</html><?php /**PATH C:\laragon\www\Web\local\resources\views/index.blade.php ENDPATH**/ ?>
+</html>
+<?php /**PATH C:\laragon\www\Web\local\resources\views/index.blade.php ENDPATH**/ ?>

@@ -53,7 +53,7 @@
                     <p class="text-center small">@lang('store.login_desc')</p>
                   </div>
 
-                  <form class="row g-3 needs-validation" novalidate action="{{ Asset('login') }}" method="POST">
+                  <form class="row g-3 needs-validation" novalidate action="{{ Asset('admin') }}" method="POST">
 
                    {!! csrf_field() !!}
 
@@ -85,7 +85,7 @@
                 </div>
               </div>
 
-              
+
 
             </div>
           </div>

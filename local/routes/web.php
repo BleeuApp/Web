@@ -24,9 +24,14 @@ use App\Http\Controllers\PlanController;
 |
 */
 
-Route::get('/', [AdminController::class, 'index']);
-Route::get('login', [AdminController::class, 'index'])->name('login');
-Route::post('login', [AdminController::class, 'login']);
+// Landing page
+Route::get('/', function () {
+    return view('public_site.landing');
+});
+
+// Route::get('/', [AdminController::class, 'index']);
+Route::get('admin', [AdminController::class, 'index'])->name('admin_login');
+Route::post('admin', [AdminController::class, 'login']);
 
 Route::group(['middleware' => 'auth'], function(){
 
