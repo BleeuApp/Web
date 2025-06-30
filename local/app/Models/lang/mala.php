@@ -1,6 +1,4 @@
-
 <?php
-
 return [
     'choose_location'  => 'സ്ഥലം തിരഞ്ഞെടുക്കുക',
     'search_location'  => 'സ്ഥലം തിരയുക',
@@ -100,6 +98,7 @@ return [
     'upi'              => 'UPI അല്ലെങ്കിൽ ഇന്റർനെറ്റ് ബാങ്കിംഗ്',
     'flutter'          => 'Flutterwave ഉപയോഗിച്ച് പേയ്‌മെന്റ്',
     'payment_added'    => 'പേയ്മെന്റ് വിജയകരമായി ചേർത്തു',
+    'payment_cancel' => 'Payment cancelled',
     'saved_address'    => 'സംരക്ഷിച്ച വിലാസത്തിൽ നിന്ന് തിരഞ്ഞെടുക്കുക',
     'add_new_address'  => 'പുതിയ വിലാസം ചേർക്കുക',
     'home'             => 'വീട്',
@@ -115,6 +114,7 @@ return [
     'success_desc'     => 'നിങ്ങളുടെ ഓർഡർ വിജയകരമായി നൽകിയിരിക്കുന്നു.',
     'my_order'         => 'എന്റെ ഓർഡർ',
     'account_delete'   => 'അക്കൗണ്ടും ബന്ധപ്പെട്ട ഡാറ്റയും വിജയകരമായി ഇല്ലാതാക്കി.',
+    'ref_code' => 'use this refral code for signup and get 200 instant ecash in your wallet.',
     'ref_title'        => 'റഫർ ചെയ്യുക & നേടുക',
     'wallet'           => 'വാലറ്റ്',
     'subscription'     => 'സബ്സ്ക്രിപ്ഷൻ',
@@ -153,6 +153,7 @@ return [
     'dont_send'        => 'ഈ തീയതിയിൽ ഡെലിവറി വേണ്ട',
     'custom_title'     => 'സ്വന്തം ബോക്സ് ഇവിടെ സൃഷ്ടിക്കുക.',
     'address_removed'  => 'വിലാസം വിജയകരമായി നീക്കം ചെയ്തു.',
+    'address_book' => 'Address Book',
     'no_address'       => 'ക്ഷമിക്കണം! വിലാസങ്ങൾ കണ്ടെത്തിയില്ല.',
     'welcome'          => 'സ്വാഗതം',
     'guest'            => 'അതിഥി',
@@ -174,6 +175,7 @@ return [
     'send'             => 'അയയ്ക്കുക',
     'contact_msg'      => 'നന്ദി! നിങ്ങളുടെ സന്ദേശം ലഭിച്ചു.',
     'notes_order'      => 'ഓർഡറിനുള്ള കുറിപ്പുകൾ',
+    'guest' => 'Guest',
     'find_meal'        => 'നിങ്ങളുടെ ഭക്ഷണം കണ്ടെത്തൂ',
     'eat_happy'        => 'നിങ്ങൾക്ക് സന്തോഷം നൽകുന്ന ഭക്ഷണം കഴിക്കുക',
     'night_mode'       => 'നൈറ്റ് മോഡ്',
@@ -181,6 +183,8 @@ return [
     'select_rating'    => 'റേറ്റിംഗ് തിരഞ്ഞെടുക്കുക',
     'submit'           => 'സമർപ്പിക്കുക',
     'your_name'        => 'നിങ്ങളുടെ പേര്',
+    "email" => "Email",
+    "phone" => "Phone no",
     'change_password'  => 'പാസ്‌വേഡ് മാറ്റുക',
     'update_profile_pic' => 'പ്രൊഫൈൽ ചിത്രം അപ്ഡേറ്റ് ചെയ്യുക',
     'remove_img'       => 'ചിത്രം നീക്കം ചെയ്യുക',
@@ -189,5 +193,4 @@ return [
     'con_pass'         => 'പാസ്‌വേഡ് സ്ഥിരീകരിക്കുക',
     'your_msg'         => 'നിങ്ങളുടെ സന്ദേശം',
 ];
-
 ?>

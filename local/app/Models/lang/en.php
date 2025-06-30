@@ -1,7 +1,5 @@
 <?php
-
 return [
-
 'choose_location'  => 'Choose Location',
 'search_location'  => 'Search for a place',
 'trending_store'    => 'Trending Stores',
@@ -194,11 +192,5 @@ return [
 "new_pass" => "New Password",
 "con_pass" => "Confirm Password",
 "your_msg" => "Your Message",
-"" => "",
-"" => "",
-"" => "",
-"" => "",
-
 ];
-
 ?>
