@@ -12,7 +12,7 @@ return [
 'per_person' => "Per Person",
 'new_arrive' => "New Arrivals",
 'recomended' => "Recomended For You",
-'all_store' => 'All Stores---',
+'all_store' => 'All Stores----',
 'subscribed' => 'Subscribed',
 'footer_line' => "You don't need a silver fork to eat good food",
 'no_record' => 'No record found for',
