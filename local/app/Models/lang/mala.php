@@ -156,6 +156,7 @@ return [
     'address_book' => 'Address Book',
     'no_address'       => 'ക്ഷമിക്കണം! വിലാസങ്ങൾ കണ്ടെത്തിയില്ല.',
     'welcome'          => 'സ്വാഗതം',
+    'hi' => 'ഹായ്',
     'guest'            => 'അതിഥി',
     'menu_home'        => 'ഹോം',
     'menu_account'     => 'അക്കൗണ്ട്',

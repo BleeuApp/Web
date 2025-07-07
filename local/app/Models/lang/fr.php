@@ -160,6 +160,7 @@ return [
 'address_book' => "Carnet d\'adresses",
 'no_address' => "Oops ! Vous n\'avez aucune adresse enregistrée.",
 'welcome' => "Bienvenue",
+'hi' => 'Salut',
 'guest' => "Utilisateur invité",
 'menu_home' => "Accueil",
 'menu_account' => "Mon compte",

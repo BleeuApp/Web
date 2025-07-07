@@ -160,6 +160,7 @@ return [
 'address_book' => 'Buku Alamat',
 'no_address' => 'Maaf! Anda tidak memiliki alamat tersimpan.',
 'welcome' => 'Selamat datang',
+'hi' => 'Hai',
 'guest' => 'Pengguna Tamu',
 'menu_home' => 'Beranda',
 'menu_account' => 'Akun Saya',

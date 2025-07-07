@@ -156,6 +156,7 @@ return [
 'address_book' => 'Address Book',
 'no_address' => 'Sorry! You dont have any saved address.',
 'welcome' => 'Welcome',
+'hi' => 'Hi', 
 'guest' => 'Guest User',
 'menu_home' => 'Home',
 'menu_account' => 'My Account',

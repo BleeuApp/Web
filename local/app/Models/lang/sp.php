@@ -160,6 +160,7 @@ return [
 'address_book' => 'Libreta de direcciones',
 'no_address' => '¡Ups! No tienes ninguna dirección guardada.',
 'welcome' => 'Bienvenido',
+'hi' => 'Hola',
 'guest' => 'Usuario invitado',
 'menu_home' => 'Inicio',
 'menu_account' => 'Mi cuenta',

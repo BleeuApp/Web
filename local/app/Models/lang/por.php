@@ -160,6 +160,7 @@ return [
 'address_book' => "Agenda de Endereços",
 'no_address' => "Oops! Você não possui nenhum endereço registrado.",
 'welcome' => "Bem-vindo",
+'hi' => 'Oi',
 'guest' => "Usuário Convidado",
 'menu_home' => "Página Inicial",
 'menu_account' => "Minha Conta",
